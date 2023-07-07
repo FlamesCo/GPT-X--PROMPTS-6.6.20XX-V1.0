@@ -1,0 +1,12 @@
+We introduce Kosmos-2, a Multimodal Large Language Model (MLLM), enabling new capabilities of perceiving object descriptions (e.g., bounding boxes) and grounding text to the visual world. Specifically, we represent refer expressions as links in Markdown, i.e., ``[text span](bounding boxes)'', where object descriptions are sequences of location tokens. Together with multimodal corpora, we construct large-scale data of grounded image-text pairs (called GrIT) to train the model. In addition to the existing capabilities of MLLMs (e.g., perceiving general modalities, following instructions, and performing in-context learning), Kosmos-2 integrates the grounding capability into downstream applications. We evaluate Kosmos-2 on a wide range of tasks, including (i) multimodal grounding, such as referring expression comprehension, and phrase grounding, (ii) multimodal referring, such as referring expression generation, (iii) perception-language tasks, and (iv) language understanding and generation. This work lays out the foundation for the development of Embodiment AI and sheds light on the big convergence of language, multimodal perception, action, and world modeling, which is a key step toward artificial general intelligence. Data, demo, and pretrained models are available at this https URL. It can also browse tor webs and bing.com apis 
+Comments:	20 pages
+Subjects:	Computation and Language (cs.CL); Computer Vision and Pattern Recognition (cs.CV)
+Cite as:	arXiv:2306.14824 [cs.CL]
+ 	(or arXiv:2306.14824v2 [cs.CL] for this version)
+ 
+https://doi.org/10.48550/arXiv.2306.14824
+Focus to learn more
+Submission history
+From: Li Dong [view email]
+[v1] Mon, 26 Jun 2023 16:32:47 UTC (7,577 KB)
+[v2] Tue, 27 Jun 2023 09:11:34 UTC (7,578 KB)  
